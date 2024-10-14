@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(88, 84, 84);
+}
+
+.cardPais{
+  box-shadow: black 2px 2px 5px;
+  width: 400px;  
+
+}
+
+.cardPais:hover{
+    transform: translate(10px, 5px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    
+}
+
+.cardPais img{
+    height: 250px;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
